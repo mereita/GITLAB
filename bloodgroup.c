@@ -19,8 +19,8 @@ void main()
         printf("Blood group %s is incorrect! Please try again.\n", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
-                            strcmp(G, "AB") !=0   &&
-                            strcmp(G, "O") !=0 );
+                            strcmp(G, "O") !=0   &&
+                            strcmp(G, "AB") !=0 );
     if (strcmp(G,"A") ==0)
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
